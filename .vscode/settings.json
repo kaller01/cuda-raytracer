@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "shape": "cpp",
+        "array": "cpp",
+        "chrono": "cpp",
+        "compare": "cpp",
+        "functional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "ranges": "cpp",
+        "ratio": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "boundingbox": "cpp",
+        "boundingsphere": "cpp",
+        "random": "cpp"
+    }
+}

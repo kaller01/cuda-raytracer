@@ -1,0 +1,231 @@
+<!DOCTYPE html><html><head>
+      <title>readme</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/kaller/.vscode-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.13/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<div style="margin: 0 100px 0 100px;  font-family: 'Times New Roman';"> 
+<h1 style="text-align: center; font-weight: normal;">Path tracer in CUDA</h1>
+<p style="text-align: center;">York Freiherr von Wangenheim yorfr185 <br>Martin Kaller marka727</p><p>
+</p><p style="text-align: center;">May 15, 2024</p><p>
+</p><div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img id="figure1" src="./report/highres.png">
+</div>
+<h2 id="1emspintroduktion">1 Introduktion </h2>
+<p>Vår ambition var att skriva en ray tracer i CUDA, med focus på att få skriva GPU kod och optimisera. Följande är specifikationen vi utgick ifrån.</p>
+<h4 id="11emspspecifikationen">1.1 Specifikationen </h4>
+<ul>
+<li>Static offline ray tracer
+<ul>
+<li>'Random' on the GPU.</li>
+<li>Spheres</li>
+<li>Ambient</li>
+<li>Shadows</li>
+<li>Reflection</li>
+<li>Specularity</li>
+<li>Optimize for GPU</li>
+<li>Balanced warps</li>
+<li><s>Shared memory</s> constant memory</li>
+<li><s>Memory coalescing</s></li>
+<li><s>Triangles instead of spheres</s></li>
+</ul>
+</li>
+</ul>
+<h5 id="111emspmight-do---offline">1.1.1 Might do - offline </h5>
+<ul>
+<li>Fuzzy shadows ✅</li>
+<li>Translucent fussiness ✅</li>
+<li>Motion blur</li>
+<li>Depth of field ✅</li>
+<li>Path tracing ✅</li>
+<li>Simple terrain</li>
+<li>Texture, perlin noise?</li>
+</ul>
+<h5 id="112emspmight-do---realtime">1.1.2 Might do - Realtime </h5>
+<ul>
+<li>Cuda-OpenGL interop, 'transfer data' without CPU</li>
+<li>Camera movement</li>
+<li>Using models</li>
+<li>Using terrain, frustum culling? Chunks?</li>
+</ul>
+<h2 id="2emspbakgrund">2 Bakgrund </h2>
+<h4 id="21emspray-tracing-in-one-weekend">2.1 Ray tracing in one weekend </h4>
+<pre class="language-text">Ray tracing is one of the most elegant techniques in computer graphics.
+    - Robert L. Cook (Distributed Ray Tracing, 1984)
+</pre>
+<p>"Ray Tracing in One Weekend" är en bok av Peter Shirley som gå igenom hur en enkel ray tracer fungerar i CPU kod. Boken går igenom hur man implementerar de viktigaste delarna av en ray tracer i kod, men även hur den fungerar teoretiskt. Vi utgick från boken, då vi var mest intresserad av GPU delarna istället för att implementera vår egna ray tracer.</p>
+<h5 id="211-ray-tracing-in-one-weekend-in-cuda">2.1.1 Ray tracing in one weekend in CUDA </h5>
+<p>Vi följde även en guide (<a href="https://developer.nvidia.com/blog/accelerated-ray-tracing-cuda/">https://developer.nvidia.com/blog/accelerated-ray-tracing-cuda/</a>) som beskriver vilka ändringar man behöver göra för att kunna följa boken "Ray tracing in one weekend" i CUDA, tex med att använda iteration istället för recursion, hur man använder CUrand för att få random på GPU:n.</p>
+<h4 id="22emspray-tracing-vs-path-tracing">2.2 Ray tracing vs path tracing </h4>
+<p>En ray tracer skickar ut strålar från kameran till scener och beräknar ljusintensiteten direkt vid varje träffpunkt, kollar om det blir en skuggstråle eller inte. En path tracer istället följer en ljusstrålens alla möjliga vägar genom scenen. Detta innebär att vi kan inkludera global ljus och illumination. Det innebär att det i princip omöjligt att implementera en path tracer som kör i realtid.</p>
+<p>Vi insåg efter att ha läst mer om path tracer och ray tracer, att vi implementerar en path tracer, när vi insåg att vi indirekt ljus.</p>
+<h2 id="3emspimplementation">3 Implementation </h2>
+<p>Som tidigare nämnt så följde vi en guide på path tracing.</p>
+<h4 id="31emspcuda">3.1 CUDA </h4>
+<p>CUDA användes som programmeringsspråk i projektet. Detta val gjordes eftersom vi ville utforska CUDA mer ingående efter att ha läst kursen TDDD56. Till skillnad från OpenGL, som används för grafikrendering, är CUDA utvecklat för allmänna beräkningar på en GPU. Detta innebär att det inte finns ett enkelt sätt att direkt rendera bilder från GPU:n till skärmen. Istället sparas innehållet i frambufferten i en .ppm-fil efter varje rendering.</p>
+<h4 id="32emspdepth-path-tracing">3.2 Depth path tracing </h4>
+<p>Strålarna från en ray tracer samlar färg information <code>total_attenuation</code> längs vägen, men det kräver att strålen tillslut träffar en ljuskälla för att använda <code>total_attenuation</code>. Om strålen studsar "för mycket" så blir det <code>total_attenuation * (0,0,0)</code> vilket resulterat i svart färg.<br>
+I våran ray tracer är den största (ibland ända) ljuskällan himlen, vilket man får om man inte träffar något alls.<br>
+Sammanfattat, kan 3 följande hända för en stråle:</p>
+<ul>
+<li>För många studs (svart)</li>
+<li>Ingen träff (himmel)</li>
+<li>Material träff
+<ul>
+<li>studsa vidare</li>
+<li>ljuskälla</li>
+</ul>
+</li>
+</ul>
+<p>Figur 1 visar en rendering med ett djup (inga studs) där vi endast  ser himlen samt några sfär som är ljuskällor.</p>
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img src="./report/depth/1.png">
+Figur 1: Rendering med 1 djup.
+</div>
+<br>
+<p>I nästa rendering med 2 i djup, figur 2, ser vi sfär där strålen har träffat och sedan stutsat mot himlen. I reflektioner ser man endast ljuskällor.</p>
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img src="./report/depth/2.png">
+Figur 2: Rendering med 2 djup.
+</div>
+<br>
+<p>I nästa rendering ser vi 4 i djup, figur 3, vilket räcker för de flesta reflektioner-</p>
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img src="./report/depth/4.png">
+Figur 3: Rendering med 4 djup.
+</div>
+<br>
+<h4 id="33emspdistributed-ray-tracing">3.3 Distributed ray-tracing </h4>
+<p>På grund av att strålen måste träffa en ljuskälla, och att det finns väldigt mycket "randomness" involverat, så innebär det att en stråle ibland aldrig träffar en ljuskälla fast att det finns en väg till ljus. Man missar alltå ofta ljus.<br>
+I figur 4 ser man resultatet av att använda endast en stråle.</p>
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img src="./report/rpp/1.png">
+Figur 4: Rendering med 1 ray per pixel.
+</div>
+<br>
+<p>Bilden blir väldigt grynig på grund av att pixlar som ligger bredvid varandra tar olika vägar. Om man istället använder flera strålar, som 4 rays per pixel, och sedan summerar så blir resultatet väldigt mycket mindre grynigt, som visualiserat i figur 5.</p>
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img src="./report/rpp/4.png">
+Figur 5: Rendering med 4 rays per pixel.
+</div>
+<br>
+<p>När man summerar flera strålar från en pixel så får man en mer korrekt väg. Det agerar även som anti aliasing när man använder en väldigt hög rays per pixel. I figur 6 används 128 rays per pixel.</p>
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img src="./report/rpp/128.png">
+Figur 6: Rendering med 128 rays per pixel.
+</div>
+<br>
+<p>Resultatet blir väldigt mjukt och runt, därav behövs ej anti aliasing.</p>
+<h4 id="34emspmaterial">3.4 Material </h4>
+<p>En viktig aspekt i en path tracer är hur material interagerar med en ljusstråle. I vårt fall implementerade vi tre olika klassiska material och ett material som är en ljuskälla. Varje material har en egen färg, <code>albedo</code> och två olika funktioner, <code>bool scatter()</code> och <code>Color3 emit()</code>, där den första sprider ut strålarna beroende på materialets beteende och den andra ger ut ljus, om materialet kan det.</p>
+<h5 id="341emsplambertian">3.4.1 Lambertian </h5>
+<p>Ett lambertian material är ett diffus material som inte avger sitt eget ljus, istället studsar den ljusstrålen en slumpmässig riktning inom enhetssfären. Dessutom lägger den till sin egen färg/<code>albedo</code> på strålens färg/<code>attenuation</code>.</p>
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img src="./report/lambertian.png">
+Figur 7: Rendering med lambertian.
+</div>
+<br>
+<h5 id="341emspmetal">3.4.1 Metal </h5>
+<p>Metal är ett material som reflekterar perfekt. Ett metal har också en variabel <code>fuzz</code>, som säger hur perfekt reflektionen ska vara, alltså en hög <code>fuzz</code> ger en metal som är matt, medans en låg ger metal som har precis har blivit polerad.</p>
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img src="./report/metal.png">
+Figur 8: Rendering med metal.
+</div>
+<br>
+<h5 id="341emspdielectric">3.4.1 Dielectric </h5>
+<p>Glass (eller glas) är ett material som bryter ljuset istället för reflekterar enligt Snells lag. Materialet har en <code>ref_idx</code> som bestämmer hur mycket ljuset ska brytas.</p>
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img src="./report/dielectric.png">
+Figur 9: Rendering med dielectric.
+</div>
+<br>
+<h5 id="341emspdiffuse-light">3.4.1 Diffuse light </h5>
+<p>Detta är ett material som inte sprider strålen vidare och i emitted bara returnerar sin egen <code>albedo</code>. Där med blir det ett material som lyser i sin färg.</p>
+<div style="display: flex; justify-content: center; align-items:center; flex-direction: column;">
+<img src="./report/dawn.png">
+Figur 10: Rendering med diffuse light.
+</div>
+<br>
+<h2 id="4emspintressanta-problem">4 Intressanta problem </h2>
+<p>På grund av att vi följde en guide på hur man skriver en path tracer så var de flesta av våra problem relaterade till, "Hur gör vi detta på en GPU?". Även fast att CUDA guiden täckte mycket så försökte vi till så stor del som möjligt implementera rakt från CPU ray tracern i "Ray tracing in one weekend" boken.</p>
+<h4 id="41emspför-mycket-random">4.1 För mycket random </h4>
+<p>Vårt största intresse var att optimera path tracern med hjälp av de GPU features (som shared memory) man får tillgång till via CUDA som man ej får tillgång till via portabel grafik som OpenGL.</p>
+<p>En GPU jobbar dock bäst när den kan jobba "jämt" och en path tracer kräver väldigt "ojämna" beräkningar. Pågrund av att det är så mycket random involverat så kan två rays från samma pixel gå helt olika vägar, och göra helt olika beräkningar. Det fanns alltså inte så stora fördelar att ha tillgång till shared memory. Generellt i path tracing så är inte minnet en stor bottleneck, vilket var det första vi försökte optimera på.</p>
+<p>Det finns nog mycket man kan optimera när det kommer till självaste beräkningarna och matematiska formlerna, men vi var mest intresserade av generella GPU optimeringar.</p>
+<h4 id="42emspconstant-memory">4.2 Constant memory </h4>
+<p>En optimering vi såg var att "världen" som bestod av alla sfärer och material, låg i globalt minne. Första tanken var shared memory, men vi insåg att constant memory borde vara bättre.</p>
+<p>När vi skapar en Sphere med ett material så användes new, vilket som i vanlig CPU-kod allokerar på heapen. I CUDA så är en del av det globala minnet dedikerat som heap.</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-new">new</span> <span class="token function">Sphere</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span> <span class="token keyword keyword-new">new</span> <span class="token function">Lambertian</span><span class="token punctuation">(</span><span class="token function">Color3</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p>Pågrund av hur dessa datastrukturer är uppbyggda så är det väldigt klurigt att försöka definera dessa under compile time. Men CUDA har stöd för att överföra runtime minne till GPU constant.</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token function">cudaMemcpyToSymbol</span><span class="token punctuation">(</span>const_materials<span class="token punctuation">,</span> tmp_materials<span class="token punctuation">,</span> CONST_MEMORY_POOL_SIZE <span class="token operator">*</span> <span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span><span class="token keyword keyword-void">void</span> <span class="token operator">*</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p>Nästa problem är dock att <code>Sphere</code> och <code>Material</code> är <code>__device__</code> kod, därav kan vi inte skapa upp det från GPU. Koden kan ej vara både <code>__host__ __device__</code> då de använder sig av <code>curand</code>.</p>
+<p>Genom att temporärt allokera globalt minne på GPU så kan vi använda "placement new" för att lägga på vårt temporärt allokerade minne istället för heapen.</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>__device__ <span class="token keyword keyword-void">void</span> <span class="token operator">*</span><span class="token operator">*</span><span class="token function">addr</span><span class="token punctuation">(</span><span class="token keyword keyword-void">void</span> <span class="token operator">*</span><span class="token operator">*</span><span class="token operator">&amp;</span>tmp_const_memory_pool<span class="token punctuation">,</span> size_t size<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-void">void</span> <span class="token operator">*</span><span class="token operator">*</span>addr <span class="token operator">=</span> tmp_const_memory_pool<span class="token punctuation">;</span>
+    <span class="token comment">//size is in bytes, += 1 jumps one void** (8 bytes)</span>
+    tmp_const_memory_pool <span class="token operator">+=</span> size<span class="token operator">/</span><span class="token number">8</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-return">return</span> addr<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name function">NEW</span><span class="token expression"><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token keyword keyword-new">new</span> <span class="token punctuation">(</span><span class="token function">addr</span><span class="token punctuation">(</span>tmp_hitables<span class="token punctuation">,</span> <span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span> a</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name function">NEWM</span><span class="token expression"><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token keyword keyword-new">new</span> <span class="token punctuation">(</span><span class="token function">addr</span><span class="token punctuation">(</span>tmp_materials<span class="token punctuation">,</span> <span class="token keyword keyword-sizeof">sizeof</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span> a</span></span>
+
+<span class="token function">NEW</span><span class="token punctuation">(</span>Sphere<span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token function">Point3</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span> <span class="token function">NEWM</span><span class="token punctuation">(</span>Lambertian<span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token function">Color3</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p>Med hjälp av en funktion som stegar fram pekaren på det temporära minnet samt makros så blir skapandet av <code>Sphere</code> och <code>Material</code> okej läsbart.</p>
+<p>När detta överförs till constant memory så är dock alla pekare fel, därav så behövs lite "pointer arithmetics" för att peka om till constant minne, innan det överförs till constant minne.</p>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code>__global__ <span class="token keyword keyword-void">void</span> <span class="token function">move_material_pointer_to_const</span><span class="token punctuation">(</span>Hitable <span class="token operator">*</span><span class="token operator">*</span>d_list<span class="token punctuation">,</span> <span class="token keyword keyword-void">void</span><span class="token operator">*</span><span class="token operator">*</span> tmp_materials<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    Material <span class="token operator">*</span>base_tmp <span class="token operator">=</span> <span class="token punctuation">(</span>Material <span class="token operator">*</span><span class="token punctuation">)</span>tmp_materials<span class="token punctuation">;</span>
+    Material <span class="token operator">*</span>base_const <span class="token operator">=</span> <span class="token punctuation">(</span>Material <span class="token operator">*</span><span class="token punctuation">)</span>const_materials<span class="token punctuation">;</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span>size_t i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> HITABLES<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token punctuation">(</span><span class="token punctuation">(</span>Sphere<span class="token operator">*</span><span class="token punctuation">)</span> d_list<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span>mat_ptr <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>Sphere<span class="token operator">*</span><span class="token punctuation">)</span> d_list<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span>mat_ptr <span class="token operator">-</span> base_tmp <span class="token operator">+</span> base_const<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+__global__ <span class="token keyword keyword-void">void</span> <span class="token function">move_sphere_pointer_to_const</span><span class="token punctuation">(</span><span class="token keyword keyword-void">void</span> <span class="token operator">*</span><span class="token operator">*</span>tmp_hitables<span class="token punctuation">,</span> Hitable <span class="token operator">*</span><span class="token operator">*</span>d_list<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    Hitable <span class="token operator">*</span>base_tmp <span class="token operator">=</span> <span class="token punctuation">(</span>Hitable <span class="token operator">*</span><span class="token punctuation">)</span>tmp_hitables<span class="token punctuation">;</span>
+    Hitable <span class="token operator">*</span>base_const <span class="token operator">=</span> <span class="token punctuation">(</span>Hitable <span class="token operator">*</span><span class="token punctuation">)</span>const_hitables<span class="token punctuation">;</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span>size_t i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> HITABLES<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        d_list<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> d_list<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">-</span> base_tmp <span class="token operator">+</span> base_const<span class="token punctuation">;</span>        
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>Därefter ligger hela "världen", som skapats i runtime, i constant memory.</p>
+<p>Tyvärr såg vi minimal prestanda ökning, det beror möjligtvis på att CUDA redan gör väldigt mycket optimeringar, eller att vår constant memory access var för "ojämn" för att resultera i några signifikanta snabbare läsningar.</p>
+<h2 id="5emspslutsats">5 Slutsats </h2>
+<p>Path tracing ger väldigt fina renderingar, men kräver "ojämna" beräkningar som ej anpassar sig speciellt bra för att försöka minnes optimera på GPU.</p>
+</div>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
